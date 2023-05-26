@@ -1,3 +1,5 @@
+package Matrizes;
+
 import java.util.Scanner;
 
 public class Matrizes {
@@ -24,7 +26,7 @@ public class Matrizes {
         System.out.println("\nMATRIZ DIGITADA: ");
         for (i = 0; i < M; i++) {
             for (j = 0; j < N; j++) {
-                System.out.println(mat[i][j] + " ");
+                System.out.print(mat[i][j] + " ");
             }
             System.out.println();
         }
