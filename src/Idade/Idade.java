@@ -31,8 +31,7 @@ public class Idade {
 
         System.out.println("A media de idade de " + nome1 + " e " + nome2 + "é de " + media);
 
-
-
+        input.close();
 
     }
 }
