@@ -1,5 +1,8 @@
 package CalculandoLadosTriangulo;
 
+import CalculandoLadosTriangulo.entities.Triangulo;
+
+
 import java.util.Locale;
 import java.util.Scanner;
 
@@ -8,7 +11,25 @@ public class CalculandoLadoTriangulo {
         Locale.setDefault(Locale.US);
         Scanner input = new Scanner(System.in);
 
-        double xA, xB, xC, yA, yB, yC;
+
+        Triangulo x, y;
+        x = new Triangulo();
+        y = new Triangulo();
+
+        System.out.println("Enter the measures of triangle X: ");
+        x.a = input.nextDouble();
+        x.b = input.nextDouble();
+        x.c = input.nextDouble();
+        System.out.println("Enter the measures of triangle Y: ");
+        y.a = input.nextDouble();
+        y.b = input.nextDouble();
+        y.c = input.nextDouble();
+
+
+        double areaX = x.area();
+
+
+        double areaY = y.area();
 
         System.out.println("Enter the measures of triangle X: ");
         xA = input.nextDouble();
@@ -24,6 +45,7 @@ public class CalculandoLadoTriangulo {
 
         p = (yA + yB + yC) / 2.0;
         double areaY = Math.sqrt(p * (p - yA) * (p - yB) * (p - yC));
+
 
         System.out.printf("Triangle X area: %.4f%n", areaX);
         System.out.printf("Triangle Y area: %.4f%n", areaY);
