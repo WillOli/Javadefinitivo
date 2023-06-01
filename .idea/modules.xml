@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/JavaDefinitivo.iml" filepath="$PROJECT_DIR$/JavaDefinitivo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/OrientacaoAObj/OrientacaoAObj.iml" filepath="$PROJECT_DIR$/OrientacaoAObj/OrientacaoAObj.iml" />
     </modules>
   </component>
 </project>
