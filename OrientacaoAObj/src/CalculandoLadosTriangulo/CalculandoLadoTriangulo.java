@@ -27,8 +27,6 @@ public class CalculandoLadoTriangulo {
 
 
         double areaX = x.area();
-
-
         double areaY = y.area();
 
         System.out.println("Enter the measures of triangle X: ");
