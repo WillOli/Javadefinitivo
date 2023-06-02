@@ -26,7 +26,9 @@ public class ProcessamentoDeDados {
         nome = "Maria Silva";
         sexo = 'F';
 
-        System.out.println("A funcionaria " + nome + ", do sexo " + sexo + ", ganha " + String.format("%.2f", salario) + "e tem "+ idade + " anos");
+        System.out.println("A funcionaria " + nome + ", do sexo " + sexo + ", ganha "
+                + String.format("%.2f", salario)
+                + "e tem "+ idade + " anos");
 
     }
 }
