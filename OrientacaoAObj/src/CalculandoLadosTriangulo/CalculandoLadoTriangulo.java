@@ -25,8 +25,6 @@ public class CalculandoLadoTriangulo {
 
 
         double areaX = x.area();
-
-
         double areaY = y.area();
 
         System.out.printf("Triangle X area: %.4f%n", areaX);
