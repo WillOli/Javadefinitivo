@@ -1,5 +1,6 @@
 package application;
 
+import CalculandoLadosTriangulo.CalculandoLadoTriangulo;
 import application.entities.Product;
 
 import java.util.Locale;
@@ -9,7 +10,6 @@ public class Program {
     public static void main(String[] args) {
         Locale.setDefault(Locale.US);
         Scanner input = new Scanner(System.in);
-
         Product product = new Product();
         System.out.println("Enter product data: ");
         System.out.print("Name: ");

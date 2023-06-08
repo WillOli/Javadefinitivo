@@ -7,7 +7,6 @@ public class Triangulo {
     public double b;
     public double c;
 
-
     /* Chamando os atributos da class.
     Função(método) sem parâmetros, retornando o calculo da área do trinâgulo.*/
     public double   area() {
