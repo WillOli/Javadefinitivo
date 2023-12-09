@@ -25,5 +25,7 @@ public class Exercicio_7_dardo {
         }else {
             System.out.printf("Maior distância = %.2f" , distancia3);
         }
+
+        input.close();
     }
 }
