@@ -13,6 +13,8 @@ public class name {
         System.out.print("Digite seu nome completo: ");
         sc.nextLine();         //-----------limpezar do buffer
         nome = sc.nextLine();
+        System.out.println(nome + "\n" + "Idade: " + idade);
+
 
     }
 }
