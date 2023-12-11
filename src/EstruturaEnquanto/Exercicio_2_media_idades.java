@@ -15,10 +15,14 @@ public class Exercicio_2_media_idades {
 
         double idade, quantidadePessoas = 0, somaIdade = 0;
         System.out.println("Digite as idades: ");
+
+        // Lopp infinito para receber as idades até que seja fornecido um valor negativo
         while(true) {
             idade = input.nextDouble();
 
+            // Verifica se a idade é negativa
             if (idade < 0) {
+                // Verifica se não foi fornecida nenhuma idade antes de tentar calcular a média.
                 if (quantidadePessoas == 0) {
                     System.out.println("Impossivel calcular.");
                 }else {
@@ -27,7 +31,7 @@ public class Exercicio_2_media_idades {
                 }
                 break;
             }
-
+            // Atualiza a soma das idades e incrementa a quantidade de pessoas
             somaIdade += idade;
             quantidadePessoas++;
         }
