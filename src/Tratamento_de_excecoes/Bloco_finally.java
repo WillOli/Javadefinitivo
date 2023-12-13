@@ -1,4 +1,4 @@
-package Tratamento_de_exercoes;
+package Tratamento_de_excecoes;
 
 import java.io.File;
 import java.io.IOException;
