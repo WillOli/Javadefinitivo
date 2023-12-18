@@ -36,7 +36,7 @@ public class Reservation {
     /*Converte milisegundos em dias*/
     public long duration() {
         long diff = checkOut.getTime() - checkIn.getTime();
-        return TimeUnit.DAYS.convert(diff, TimeUnit.MICROSECONDS);
+        return TimeUnit.DAYS.convert(diff, TimeUnit.MILLISECONDS);
     }
 
     public void updateDates(Date checkin, Date checkout) {
@@ -52,6 +52,7 @@ public class Reservation {
                 + sdf.format(checkIn)
                 + ", check-out: "
                 + sdf.format(checkOut)
+                + ", "
                 + duration()
                 + " nights";
     }
