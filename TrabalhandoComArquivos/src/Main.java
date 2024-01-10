@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        File file = new File("/home/william/Documentos/William/JAVA/Javadefinitivo/TrabalhandoComArquivos/src/document/texto.txt");
+        File file = new File("E:\\Programação\\JAVA\\Javadefinitivo\\TrabalhandoComArquivos\\src\\document\\texto.txt");
         Scanner input = null;
         try {
             input = new Scanner(file);
