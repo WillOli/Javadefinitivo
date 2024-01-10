@@ -1,4 +1,4 @@
-package Tratamento_de_exercoes;
+package Tratamento_de_excecoes;
 
 import java.util.InputMismatchException;
 import java.util.Locale;
