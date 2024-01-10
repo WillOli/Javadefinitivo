@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/OrientacaoAObj/Construtores/Construtores.iml" filepath="$PROJECT_DIR$/OrientacaoAObj/Construtores/Construtores.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ContaBancaria/ContaBancaria.iml" filepath="$PROJECT_DIR$/ContaBancaria/ContaBancaria.iml" />
       <module fileurl="file://$PROJECT_DIR$/JavaDefinitivo.iml" filepath="$PROJECT_DIR$/JavaDefinitivo.iml" />
       <module fileurl="file://$PROJECT_DIR$/OrientacaoAObj/MembrosEstaticos/MembrosEstaticos.iml" filepath="$PROJECT_DIR$/OrientacaoAObj/MembrosEstaticos/MembrosEstaticos.iml" />
       <module fileurl="file://$PROJECT_DIR$/OrientacaoAObj/OrientacaoAObj.iml" filepath="$PROJECT_DIR$/OrientacaoAObj/OrientacaoAObj.iml" />

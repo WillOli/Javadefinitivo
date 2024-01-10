@@ -29,7 +29,6 @@ public class Reservation {
     public void setRoomNumber(Integer roomNumber) {
         this.roomNumber = roomNumber;
     }
-
     public Date getCheckIn() {
         return checkIn;
     }
