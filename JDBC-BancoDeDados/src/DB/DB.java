@@ -3,9 +3,7 @@ package DB;
 import exception.DbException;
 
 import java.io.FileInputStream;
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.SQLException;
+import java.sql.*;
 import java.util.Properties;
 
 public class DB {
@@ -25,7 +23,7 @@ public class DB {
         return conn;
     }
 
-    public static void closeConnetion() {
+    public static void closeConnection() {
         if (conn != null) {
             try {
                 conn.close();
@@ -34,8 +32,6 @@ public class DB {
             }
         }
     }
-
-
 
     private static Properties loadProperties() {
         try (FileInputStream fs = new FileInputStream("JDBC-BancoDeDados/resources/db.properties")) {
@@ -51,7 +47,6 @@ public class DB {
             if (useSSL != null && allowPublicKeyRetrieval != null) {
                 url += "?useSSL=" + useSSL + "&allowPublicKeyRetrieval=" + allowPublicKeyRetrieval;
                 props.setProperty("dburl", url);
-
             }
             return props;
         } catch (Exception e) {
@@ -59,4 +54,23 @@ public class DB {
         }
     }
 
+    public static void closeStatement(Statement st) {
+        if (st != null) {
+            try {
+                st.close();
+            } catch (SQLException e) {
+                throw new DbException(e.getMessage());
+            }
+        }
+    }
+
+    public static void closeResultSet(ResultSet rs) {
+        if (rs != null) {
+            try {
+                rs.close();
+            } catch (SQLException e) {
+                throw new DbException(e.getMessage());
+            }
+        }
+    }
 }
