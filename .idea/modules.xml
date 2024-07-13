@@ -13,6 +13,7 @@
       <module fileurl="file://$PROJECT_DIR$/Reservation/Reservation.iml" filepath="$PROJECT_DIR$/Reservation/Reservation.iml" />
       <module fileurl="file://$PROJECT_DIR$/TrabalhandoComArquivos/TrabalhandoComArquivos.iml" filepath="$PROJECT_DIR$/TrabalhandoComArquivos/TrabalhandoComArquivos.iml" />
       <module fileurl="file://$PROJECT_DIR$/TrabalhodorContrato/TrabalhodorContrato.iml" filepath="$PROJECT_DIR$/TrabalhodorContrato/TrabalhodorContrato.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bibliotecaPOO/bibliotecaPOO.iml" filepath="$PROJECT_DIR$/bibliotecaPOO/bibliotecaPOO.iml" />
     </modules>
   </component>
 </project>
